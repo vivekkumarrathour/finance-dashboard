@@ -1,39 +1,39 @@
-# Finance Dashboard
+# Finance Dashboard (Assignment Project)
 
-A simple and responsive finance dashboard built using **React, Vite, Tailwind CSS, and Recharts**.
-This project helped me understand how to design frontend applications, manage state, and work with data visualization.
+This project was built as part of a **Frontend Developer Intern assessment**.
+The goal was to design and develop a clean, interactive dashboard to track and understand financial activity.
 
 ---
 
 ## 📌 Overview
 
-This dashboard allows users to:
+The application allows users to:
 
-* View their financial summary
+* View overall financial summary
 * Explore transactions
 * Understand spending patterns
 
-The project is built using mock data and focuses mainly on frontend development.
+It is a frontend-only project built using mock data.
 
 ---
 
 ## ✨ Features
 
-### Dashboard
+### Dashboard Overview
 
-* Total Balance, Income, and Expenses cards
-* Chart showing income vs expenses over time
-* Category-wise spending breakdown
+* Summary cards for Balance, Income, and Expenses
+* Time-based chart (income vs expenses trend)
+* Category-based chart (spending breakdown)
 
 ### Transactions
 
-* List of transactions with:
+* Transaction list with:
 
   * Date
   * Amount
   * Category
   * Type
-* Search, filter, and sorting options
+* Search, filter, and sorting functionality
 
 ### Role-Based UI
 
@@ -44,17 +44,17 @@ The project is built using mock data and focuses mainly on frontend development.
 
 * Highest spending category
 * Monthly comparison
-* Basic observations from data
+* Basic financial observations
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (with Vite)
+* React (Vite)
 * Tailwind CSS
 * Recharts
-* Context API (state management)
-* localStorage (for saving data)
+* Context API
+* localStorage
 
 ---
 
@@ -71,7 +71,7 @@ src/
 
 ---
 
-## 🚀 How to Run
+## 🚀 Setup Instructions
 
 ```bash
 npm install
@@ -82,26 +82,25 @@ npm run dev
 
 ## 💡 What I Learned
 
-* Building reusable React components
-* Managing global state using Context API
-* Creating charts using Recharts
-* Designing responsive UI with Tailwind
-* Handling user interactions like filtering and sorting
+Through this project, I learned:
 
-I also used AI tools to guide me during development and to improve code structure and UI decisions.
+* Structuring a React application
+* Managing state using Context API
+* Building reusable UI components
+* Creating charts for data visualization
+* Handling filtering, sorting, and UI interactions
+
+I also used AI tools to assist with ideas, debugging, and improving implementation, which helped me learn faster and refine my approach.
 
 ---
 
 ## 📝 Note
 
-This project is frontend-only and uses mock data. The goal was to understand UI design, state management, and user experience.
+This is a frontend-only project created for evaluation purposes.
+All data used is mock data.
 
 ---
 
 ## 📜 License
 
 MIT
-
-
-
-Thank You 

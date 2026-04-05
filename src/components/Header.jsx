@@ -24,6 +24,8 @@ export default function Header() {
         WebkitBackdropFilter: 'blur(12px)',
       }}
     >
+
+      {/* decoration part  */}
       <div className="dashboard-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 24px' }}>
         {/* Logo */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>

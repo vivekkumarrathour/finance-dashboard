@@ -11,6 +11,8 @@ import {
   Legend,
 } from 'recharts';
 
+// this is a crucial part remember the terms used here.
+
 function CustomTooltip({ active, payload, label }) {
   if (!active || !payload || !payload.length) return null;
 
